@@ -1,0 +1,38 @@
+.card
+{
+    display:inline-flex;
+    flex-direction: row;
+    margin-left:38%;
+    margin-top:20vh;
+    background: rgba(105, 13, 197, 0.103);
+    border-radius: 10px;
+    padding-left: 20px;
+    height: 25vh;
+    padding-top: 30px;
+    /* padding-bottom: 20px; */
+    padding-right: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.img-div img{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.discript-div
+{
+    padding-left: 10px;
+}
+.discript-div p h1 {
+    flex-grow: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 1.2em;
+  }
+
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 10px 5px 5px rgba(117, 115, 115, 0.389);
+}
